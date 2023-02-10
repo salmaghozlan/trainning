@@ -5,8 +5,7 @@ const newUser = {
   password: 'm38rmF$',
 };
 
-axios
-  .post('https://fakestoreapi.com/users', newUser)
+axios.post('https://fakestoreapi.com/users', newUser)
   .then(response => {
     console.log(response.data);
   })
